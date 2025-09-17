@@ -20,7 +20,7 @@
     z-index: 2;
     opacity: 0;
     animation: 
-        moonGlow 4s ease-in-out infinite alternate,
+        moonGlow 6s ease-in-out infinite alternate,
         moonAppear 4s ease-out forwards;
 }
 
