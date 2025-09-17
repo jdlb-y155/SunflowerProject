@@ -1,3 +1,29 @@
+.moon {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, 
+        #ffffff 0%,
+        #fff4e5 20%,
+        #f4e8c1 40%,
+        #efe1b3 60%,
+        #e6d5a7 100%
+    );
+    border-radius: 50%;
+    box-shadow: 
+        inset -25px -25px 40px rgba(0,0,0,0.2),
+        0 0 20px #fff4e5,
+        0 0 40px rgba(255, 244, 229, 0.3),
+        0 0 60px rgba(255, 244, 229, 0.2);
+    z-index: 2;
+    opacity: 0;
+    animation: 
+        moonGlow 4s ease-in-out infinite alternate,
+        moonAppear 4s ease-out forwards;
+}
+
 
 .night {
     position: fixed;
@@ -28,7 +54,9 @@
             rgb(0, 0, 0) 19px,
             transparent 19px,
             transparent 22px),
-        linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+        linear-gradient(90deg,
+            rgba(255, 192, 203, 0.1),
+            rgba(147, 112, 219, 0.1));
 }
 
 .shooting-stars {
@@ -121,4 +149,130 @@
     left: -10%;
     animation-delay: 14s;
     animation-duration: 3.3s;
+}
+
+.shooting-star:nth-child(9) {
+    top: 18%;
+    left: -10%;
+    animation-delay: 16s;
+    animation-duration: 2.6s;
+}
+
+.shooting-star:nth-child(10) {
+    top: 28%;
+    left: -10%;
+    animation-delay: 18s;
+    animation-duration: 3.4s;
+}
+
+.shooting-star:nth-child(11) {
+    top: 38%;
+    left: -10%;
+    animation-delay: 20s;
+    animation-duration: 2.7s;
+}
+
+.shooting-star:nth-child(12) {
+    top: 48%;
+    left: -10%;
+    animation-delay: 22s;
+    animation-duration: 3.2s;
+}
+
+.shooting-star:nth-child(n+13) {
+    animation-duration: 3.5s;
+}
+
+.shooting-star:nth-child(n+20) {
+    animation-duration: 2.8s;
+}
+
+.shooting-star:nth-child(13) {
+    top: 55%;
+    animation-delay: 24s;
+}
+
+.shooting-star:nth-child(14) {
+    top: 65%;
+    animation-delay: 26s;
+}
+
+.shooting-star:nth-child(15) {
+    top: 75%;
+    animation-delay: 28s;
+}
+
+.shooting-star:nth-child(16) {
+    top: 85%;
+    animation-delay: 30s;
+}
+
+.shooting-star:nth-child(17) {
+    top: 15%;
+    animation-delay: 32s;
+}
+
+.shooting-star:nth-child(18) {
+    top: 25%;
+    animation-delay: 34s;
+}
+
+.shooting-star:nth-child(19) {
+    top: 35%;
+    animation-delay: 36s;
+}
+
+.shooting-star:nth-child(20) {
+    top: 45%;
+    animation-delay: 38s;
+}
+
+.shooting-star:nth-child(21) {
+    top: 55%;
+    animation-delay: 40s;
+}
+
+.shooting-star:nth-child(22) {
+    top: 65%;
+    animation-delay: 42s;
+}
+
+.shooting-star:nth-child(23) {
+    top: 75%;
+    animation-delay: 44s;
+}
+
+.shooting-star:nth-child(24) {
+    top: 85%;
+    animation-delay: 46s;
+}
+
+.shooting-star:nth-child(25) {
+    top: 15%;
+    animation-delay: 48s;
+}
+
+.shooting-star:nth-child(26) {
+    top: 25%;
+    animation-delay: 50s;
+}
+
+.shooting-star:nth-child(27) {
+    top: 35%;
+    animation-delay: 52s;
+}
+
+.shooting-star:nth-child(28) {
+    top: 45%;
+    animation-delay: 54s;
+}
+
+.shooting-star:nth-child(29) {
+    top: 55%;
+    animation-delay: 56s;
+}
+
+.shooting-star:nth-child(30) {
+    top: 65%;
+    animation-delay: 58s;
 }
