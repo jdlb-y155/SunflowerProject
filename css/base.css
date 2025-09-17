@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-color: #000;
+    --fl-speed: 0.8s;
+    --speed-leaf: 2s;
+}
+
+body {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--dark-color);
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+.grow-ans {
+    animation: grow-ans 2s var(--d) backwards;
+}
+
+.growing-grass {
+    animation: growing-grass-ans 1s 2s backwards;
+}
+
+.not-loaded * {
+    animation-play-state: paused !important;
+}
+
+.centered-text {
+     position: fixed;
+    left: 50%;
+    bottom: 5vh;
+    transform: translateX(-50%);
+    font-family: 'Great Vibes', cursive;
+    font-size: 4vmin;
+    text-align: center;
+    z-index: 100;
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 3s;
+    /* Colores y efectos */
+     color: #98ff98; /* Verde menta suave */
+    text-shadow: 
+        0 0 5px rgba(152, 255, 152, 0.5),
+        0 0 10px rgba(152, 255, 152, 0.3),
+        2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 4.5vmin;
+}
+
+.centered-text h2 {
+    font-family: 'Great Vibes', cursive; /* Cambiamos la fuente Arial por Great Vibes */
+    font-weight: 400;
+    letter-spacing: 3px;
+}

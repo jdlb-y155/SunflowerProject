@@ -1,0 +1,354 @@
+@keyframes shootingStar {
+    0% {
+        opacity: 0;
+        transform: translateX(0) translateY(0) rotate(45deg);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(120vw) translateY(50vh) rotate(10deg);
+    }
+}
+
+@keyframes shootingStarTail {
+    0% {
+        width: 0;
+    }
+
+    30% {
+        width: 100px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+
+/* KEYFRAMES */
+@keyframes grow-ans {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes growing-grass-ans {
+    0% {
+        transform: scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--1 {
+    0% {
+        transform-origin: bottom left;
+        transform: rotate(-20deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--2 {
+    0% {
+        transform-origin: bottom right;
+        transform: rotate(10deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--3 {
+    0% {
+        transform-origin: bottom left;
+        transform: rotate(-18deg) rotateX(-20deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--4 {
+    0% {
+        transform-origin: bottom right;
+        transform: rotate(2deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--5 {
+    0% {
+        transform-origin: bottom left;
+        transform: rotate(-24deg) rotateX(-20deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--6 {
+    0% {
+        transform-origin: bottom right;
+        transform: rotate(10deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--7 {
+    0% {
+        transform-origin: bottom left;
+        transform: rotate(-10deg) scale(0);
+    }
+}
+
+@keyframes growing-grass-ans--8 {
+    0% {
+        transform-origin: bottom right;
+        transform: rotate(10deg) scale(0);
+    }
+}
+
+@keyframes sunflower-seeds {
+    0% {
+        opacity: 0;
+        transform: translateY(0vmin) rotate(0deg);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateY(-3vmin) translateX(-1vmin) rotate(45deg);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translateY(-8vmin) translateX(1vmin) rotate(90deg);
+    }
+
+    60% {
+        transform: translateY(-12vmin) translateX(-1vmin) rotate(135deg);
+    }
+
+    80% {
+        transform: translateY(-16vmin) translateX(2vmin) rotate(180deg);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(-25vmin) rotate(225deg);
+        opacity: 0;
+    }
+}
+
+@keyframes moving-flower-1 {
+
+    0%,
+    100% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+}
+
+@keyframes moving-flower-2 {
+
+    0%,
+    100% {
+        transform: rotate(18deg);
+    }
+
+    50% {
+        transform: rotate(14deg);
+    }
+}
+
+@keyframes moving-flower-3 {
+
+    0%,
+    100% {
+        transform: rotate(-18deg);
+    }
+
+    50% {
+        transform: rotate(-20deg) rotateY(-10deg);
+    }
+}
+
+@keyframes moving-flower-4 {
+
+    0%,
+    100% {
+        transform: rotate(9deg);
+    }
+
+    50% {
+        transform: rotate(12deg) rotateY(9deg);
+    }
+}
+
+@keyframes moving-flower-5 {
+
+    0%,
+    100% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(-11deg) rotateY(5deg);
+    }
+}
+
+@keyframes blooming-leaf-right {
+    0% {
+        transform-origin: left;
+        transform: rotate(70deg) rotateY(30deg) scale(0);
+    }
+}
+
+@keyframes blooming-leaf-left {
+    0% {
+        transform-origin: right;
+        transform: rotate(-70deg) rotateY(30deg) scale(0);
+    }
+}
+
+@keyframes grow-flower-tree {
+    0% {
+        height: 0;
+        border-radius: 1vmin;
+    }
+}
+
+@keyframes blooming-flower {
+    0% {
+        transform: scale(0);
+    }
+}
+
+@keyframes moving-grass {
+
+    0%,
+    100% {
+        transform: rotate(-48deg) rotateY(40deg);
+    }
+
+    50% {
+        transform: rotate(-50deg) rotateY(40deg);
+    }
+}
+
+@keyframes moving-grass--2 {
+
+    0%,
+    100% {
+        transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
+    }
+
+    50% {
+        transform: scale(0.5) rotate(79deg) rotateX(10deg) rotateY(-200deg);
+    }
+}
+
+/* Animaciones para hierba adicional */
+@keyframes moving-grass--3 {
+
+    0%,
+    100% {
+        transform: scale(0.7) rotate(-30deg) rotateY(45deg);
+    }
+
+    50% {
+        transform: scale(0.7) rotate(-33deg) rotateY(50deg);
+    }
+}
+
+@keyframes moving-grass--4 {
+
+    0%,
+    100% {
+        transform: scale(0.4) rotate(60deg) rotateX(15deg) rotateY(-180deg);
+    }
+
+    50% {
+        transform: scale(0.4) rotate(63deg) rotateX(18deg) rotateY(-175deg);
+    }
+}
+
+@keyframes moving-grass--5 {
+
+    0%,
+    100% {
+        transform: scale(0.6) rotate(-60deg) rotateY(60deg);
+    }
+
+    50% {
+        transform: scale(0.6) rotate(-57deg) rotateY(65deg);
+    }
+}
+
+@keyframes moving-grass--6 {
+
+    0%,
+    100% {
+        transform: scale(0.65) rotate(35deg) rotateY(-45deg);
+    }
+
+    50% {
+        transform: scale(0.65) rotate(38deg) rotateY(-40deg);
+    }
+}
+
+@keyframes moving-grass--7 {
+
+    0%,
+    100% {
+        transform: scale(0.45) rotate(-70deg) rotateX(20deg) rotateY(170deg);
+    }
+
+    50% {
+        transform: scale(0.45) rotate(-67deg) rotateX(23deg) rotateY(175deg);
+    }
+}
+
+@keyframes moving-grass--8 {
+
+    0%,
+    100% {
+        transform: scale(0.55) rotate(50deg) rotateY(-70deg);
+    }
+
+    50% {
+        transform: scale(0.55) rotate(53deg) rotateY(-65deg);
+    }
+}
+
+@keyframes moving-grass--9 {
+
+    0%,
+    100% {
+        transform: scale(0.3) rotate(20deg) rotateY(90deg);
+    }
+
+    50% {
+        transform: scale(0.3) rotate(23deg) rotateY(95deg);
+    }
+}
+
+@keyframes moving-grass--10 {
+
+    0%,
+    100% {
+        transform: scale(0.35) rotate(-45deg) rotateY(-120deg);
+    }
+
+    50% {
+        transform: scale(0.35) rotate(-42deg) rotateY(-115deg);
+    }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+}
