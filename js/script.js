@@ -24,3 +24,11 @@ window.onload = () => {
         clearTimeout(c);
     }, 1000);
 };
+function reproducirAudio() {
+  const audio = document.getElementById("miAudio");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+};
